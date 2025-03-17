@@ -26,14 +26,16 @@ Users should be able to:
 
 ### Screenshot
 
+![alt text](image.png)
 
 ### Links
 
 - Solution URL: []()
-- Live Site URL: []()
+- Live Site URL: [Live-site](https://drmetr.github.io/Coding-bootcamp-testimonials-slider-challenge/)
 
 ## My process
 
+I made it using Bootstrap and regular html/css where bootstrap failed me. I also included myself (deanon!) as a third carousel item because two items felt too little and because I thought it was funny.
 
 ### Built with
 
@@ -41,22 +43,21 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- Vanilla JavaScript
+- Bootstrap-5
 
 ### What I learned
 
- 
+ I learned how to implement frameworks in my projects, particularly working with Bootstrap 5. Since carousels are already present as bootstrap component there was no need for JS. I also adopted a way similar to frameworks' line of thinking: writing lots of classes and adding them to html elements that bear the features instead of describing each element on its own. This is convenient, makes code reusable. Adding the carousel was an issue because I didn't figure how to position buttons over item photos.
 
 ### Continued development
 
-
+More working with frameworks like Tailwind or Bulma. Taking more challenging challenges.
 
 ### Useful resources
 
-- [6 Ways to Stretch a Background Image with CSS](https://cloudinary.com/guides/front-end-development/6-ways-to-stretch-a-background-image-with-css) - learned about backgrpund-attachment property
+- [6 Ways to Stretch a Background Image with CSS](https://cloudinary.com/guides/front-end-development/6-ways-to-stretch-a-background-image-with-css) - learned about background-attachment property
 
-- [](https://stackoverflow.com/questions/48824568/bootstrap-4-carousel-sliders-not-working)
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [DrMetr](https://github.com/DrMetr)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
