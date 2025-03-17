@@ -49,6 +49,8 @@ I made it using Bootstrap and regular html/css where bootstrap failed me. I also
 
  I learned how to implement frameworks in my projects, particularly working with Bootstrap 5. Since carousels are already present as bootstrap component there was no need for JS. I also adopted a way similar to frameworks' line of thinking: writing lots of classes and adding them to html elements that bear the features instead of describing each element on its own. This is convenient, makes code reusable. Adding the carousel was an issue because I didn't figure how to position buttons over item photos.
 
+ UPD: I managed to make a responsive carousel button attached to a carouselitem picture by using the experimental anchor and target attributes. Think, they're underestimated.
+
 ### Continued development
 
 More working with frameworks like Tailwind or Bulma. Taking more challenging challenges.
@@ -56,6 +58,10 @@ More working with frameworks like Tailwind or Bulma. Taking more challenging cha
 ### Useful resources
 
 - [6 Ways to Stretch a Background Image with CSS](https://cloudinary.com/guides/front-end-development/6-ways-to-stretch-a-background-image-with-css) - learned about background-attachment property
+
+- [CSS Anchor Positioning Guide](https://css-tricks.com/css-anchor-positioning-guide/) - helped me with the buttons a little
+
+- [MDN position-area property](https://developer.mozilla.org/en-US/docs/Web/CSS/position-area) - helped me understanding achor-target positioning
 
 ## Author
 

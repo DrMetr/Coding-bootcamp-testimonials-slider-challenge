@@ -56,7 +56,7 @@ body {
 
 img {
     width: 75%;
-    filter:drop-shadow(0px 10px 15px hsla(240, 21%, 38%, 0.753));
+    filter: drop-shadow(0px 10px 15px hsla(240, 21%, 38%, 0.753));
 
     @media screen and (min-width: 768px) {
         width: 40%;
@@ -73,7 +73,6 @@ img {
 
     @media screen and (min-width: 768px) {
         background-position: 10% 0%;
-        margin: 1lh;
     }
 }
 
@@ -98,5 +97,20 @@ blockquote {
 
     @media screen and (min-width: 768px) {
         margin: 0;
+    }
+}
+
+.anchor {
+    anchor-name: --my-anchor;
+    top: 10rem;
+}
+  
+.target {
+    position-anchor: --my-anchor;
+    position: absolute;
+    position-area: bottom span-all;
+
+    @media screen and (min-width: 768px) {
+        position-area: block-end span-inline-end;
     }
 }

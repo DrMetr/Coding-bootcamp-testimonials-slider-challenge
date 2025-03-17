@@ -23,26 +23,13 @@
 
   <main class="d-flex flex-column justify-content-center align-items-center">
 
-    <div id="carousel" class="carousel slide d-flex flex-column justify-content-center align-items-center m-2" data-bs-ride="carousel">
-
-
-      <div class="btn-group z-3 mb-2">
-        <button class="carousel-control-prev carousel_button" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        
-        <button class="carousel-control-next carousel_button" type="button" data-bs-target="#carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+    <div id="carousel" class="carousel slide d-flex flex-column justify-content-center align-items-center m-2">
 
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="d-flex flex-md-row-reverse flex-column justify-content-center align-items-center">
             
-            <img src="images/image-tanya.jpg" alt="Photo of Tanya" class="rounded-1 mb-4">
+            <img src="images/image-tanya.jpg" alt="Photo of Tanya" class="rounded-1 mb-4 anchor">
             <div class="quote">
                 <blockquote>
                     “ I’ve been interested in coding for a while but never taken the jump, until now. 
@@ -60,7 +47,7 @@
 
         <div class="carousel-item">
           <div class="d-flex flex-md-row-reverse flex-column justify-content-center align-items-center">
-            <img src="images/image-john.jpg" alt="Photo of John" class="rounded-1 mb-4">
+            <img src="images/image-john.jpg" alt="Photo of John" class="rounded-1 mb-4 anchor">
               <div class="quote">
                <blockquote>“ If you want to lay the best foundation possible I’d recommend taking this course. 
                 The depth the instructors go into is incredible. I now feel so confident about 
@@ -77,7 +64,7 @@
 
         <div class="carousel-item">
           <div class="d-flex flex-md-row-reverse flex-column justify-content-center align-items-center">
-            <img src="images/image_dr.jpg" alt="Photo of Dr" class="rounded-1 mb-4">
+            <img src="images/image_dr.jpg" alt="Photo of Dr" class="rounded-1 mb-4 anchor">
             <div class="quote">
               <blockquote>“ I have no idea what these two are talking about. ”</blockquote>
 
@@ -88,9 +75,21 @@
             </div>
           </div>
         </div>
-
-    
       </div>
+
+      <div class="btn-group z-3 target">
+        <button class="carousel-control-prev carousel_button" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        
+        <button class="carousel-control-next carousel_button" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+
     </div>
   </main>
 
